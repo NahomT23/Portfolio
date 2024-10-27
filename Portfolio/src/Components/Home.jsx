@@ -33,7 +33,7 @@ const Home = () => {
                     </h2>
 
                     <p className='text-gray-400 py-4 max-w-md'>
-                        I build high quality web applications with a focus on both front end and back-end development. Passionate about creating seamless user experiences and staying ahead with the latest technologies.
+                        I build high quality web applications with a focus on both front-end and back-end development. Passionate about creating seamless user experiences and staying ahead with the latest technologies.
                     </p>
                     <div>
                         <Link to="portfolio" smooth={true} offset={-80} duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-800 cursor-pointer'>
