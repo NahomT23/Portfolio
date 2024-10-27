@@ -35,9 +35,9 @@ const Portfolio = () => {
             id: 3,
             name: 'Kalit Watch Store',
             src: kalitImage,
-            demoLink: 'https://example.com/demo3',
+            demoLink: 'https://a159-102-218-51-46.ngrok-free.app',
             codeLink: 'https://github.com/user/repo3',
-            technologies: ['React', 'Tailwind', 'Express', 'Node', 'Firestore', 'Firebase', 'Telegram API']
+            technologies: ['React', 'Tailwind', 'Express', 'Node', 'Ngrok', 'Firebase', 'Telegram API']
         },
         // {
         //     id: 4,
