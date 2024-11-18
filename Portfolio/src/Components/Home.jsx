@@ -45,7 +45,7 @@ const Home = () => {
                     </div>
                 </motion.div>
 
-                <motion.div
+                {/* <motion.div
                     ref={imageRef}
                     initial={{ opacity: 0, x: 50 }}
                     animate={{ opacity: imageInView ? 1 : 0, x: imageInView ? 0 : 50 }}
@@ -58,7 +58,7 @@ const Home = () => {
                         className='rounded-2xl w-3/4'
                         style={{ width: '300px' }}
                     />
-                </motion.div>
+                </motion.div> */}
 
             </div>
         </div>
