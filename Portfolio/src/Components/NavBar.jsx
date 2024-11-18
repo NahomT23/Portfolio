@@ -4,6 +4,7 @@ import { useInView } from 'react-intersection-observer';
 import { FaBars, FaTimes, FaGithub } from 'react-icons/fa';
 import { MdOutlineEmail } from "react-icons/md";
 import { Link } from 'react-scroll';
+import { FaTelegram } from "react-icons/fa";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -39,6 +40,16 @@ const NavBar = () => {
         </>
       ),
       href: 'https://mail.google.com/mail/?view=cm&fs=1&to=tnahom214@gmail.com',
+      style: 'hover:bg-gray-700 rounded-br-md',
+    },
+    {
+      id: 2,
+      child: (
+        <>
+          Telegram <FaTelegram size={30} />
+        </>
+      ),
+      href: 'https://t.me/nahomT23',
       style: 'hover:bg-gray-700 rounded-br-md',
     },
   ];
