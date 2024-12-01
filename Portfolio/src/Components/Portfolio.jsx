@@ -7,6 +7,7 @@ import demo5 from '../assets/images/demo5.jpg';
 import expt from '../assets/images/expt.jpg';
 import lifeline from '../assets/images/lifeline.jpg';
 import kalitImage from '../assets/images/kalitImage.jpg'
+import payzen from '../assets/images/payzen.jpg'
 
 const Portfolio = () => {
     const { ref: sectionRef, inView: sectionInView } = useInView({
@@ -39,14 +40,14 @@ const Portfolio = () => {
             codeLink: 'https://github.com/user/repo3',
             technologies: ['React', 'Tailwind', 'Express', 'Node', 'Ngrok', 'Firebase', 'Telegram API']
         },
-        // {
-        //     id: 4,
-        //     name: 'Portfolio 4',
-        //     src: demo3,
-        //     demoLink: 'https://example.com/demo4',
-        //     codeLink: 'https://github.com/user/repo4',
-        //     technologies: ['Python', 'Django', 'Bootstrap']
-        // },
+        {
+            id: 4,
+            name: 'PayZen Invoice',
+            src: payzen,
+            demoLink: 'https://zen-pay-m4fi.vercel.app/',
+            codeLink: 'https://github.com/NahomT23/ZenPay.git',
+            technologies: ['Nextjs', 'Typescript', 'Tailwind', 'clerk', 'Drizzle ORM', 'shadcn']
+        },
         // {
         //     id: 5,
         //     name: 'Portfolio 5',
