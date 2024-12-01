@@ -8,6 +8,7 @@ import expt from '../assets/images/expt.jpg';
 import lifeline from '../assets/images/lifeline.jpg';
 import kalitImage from '../assets/images/kalitImage.jpg'
 import payzen from '../assets/images/payzen.jpg'
+import feedback from "../assets/images/feedback.jpg"
 
 const Portfolio = () => {
     const { ref: sectionRef, inView: sectionInView } = useInView({
@@ -38,7 +39,7 @@ const Portfolio = () => {
             src: kalitImage,
             demoLink: 'https://a159-102-218-51-46.ngrok-free.app',
             codeLink: 'https://github.com/user/repo3',
-            technologies: ['React', 'Tailwind', 'Express', 'Node', 'Ngrok', 'Firebase', 'Telegram API']
+            technologies: ['React', 'Tailwind', 'Express', 'Node', 'Ngrok', 'Firebase', 'Firestore Auth', 'Telegram API']
         },
         {
             id: 4,
@@ -46,16 +47,16 @@ const Portfolio = () => {
             src: payzen,
             demoLink: 'https://zen-pay-m4fi.vercel.app/',
             codeLink: 'https://github.com/NahomT23/ZenPay.git',
-            technologies: ['Nextjs', 'Typescript', 'Tailwind', 'clerk', 'Drizzle ORM', 'shadcn']
+            technologies: ['Nextjs', 'Typescript', 'Tailwind', 'clerk', 'Drizzle ORM', 'Stripe']
         },
-        // {
-        //     id: 5,
-        //     name: 'Portfolio 5',
-        //     src: demo4,
-        //     demoLink: 'https://example.com/demo5',
-        //     codeLink: 'https://github.com/user/repo5',
-        //     technologies: ['PHP', 'Laravel', 'MySQL']
-        // },
+        {
+            id: 5,
+            name: 'QuickFeed',
+            src: feedback,
+            demoLink: 'https://quick-feed-u6z9.vercel.app/',
+            codeLink: 'https://github.com/NahomT23/quickFeed.git',
+            technologies: ['Nextjs', 'Typescript', 'clerk', 'Tailwind', 'Prisma', 'Postgresql', 'Stripe']
+        },
         // {
         //     id: 6,
         //     name: 'Portfolio 6',
