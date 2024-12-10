@@ -9,7 +9,7 @@ import lifeline from '../assets/images/lifeline.jpg';
 import kalitImage from '../assets/images/kalitImage.jpg'
 import payzen from '../assets/images/payzen.jpg'
 import feedback from "../assets/images/feedback.jpg"
-
+import gymManager from "../assets/images/gymManager.jpg"
 const Portfolio = () => {
     const { ref: sectionRef, inView: sectionInView } = useInView({
         triggerOnce: true, // Trigger animation only once
@@ -23,7 +23,7 @@ const Portfolio = () => {
             src: expt,
             demoLink: 'https://ai-expense-tracker-4.onrender.com/',
             codeLink: 'https://github.com/NahomT23/AI-Expense-Tracker.git',
-            technologies: ['React', 'Express', 'GraphQL', 'MongoDb', 'Tailwind', 'Shadcn', 'Gemini API']
+            technologies: ['React', 'Express', 'GraphQL', 'MongoDb', 'Tailwind', 'Gemini AI API']
         },
         {
             id: 2,
@@ -31,7 +31,7 @@ const Portfolio = () => {
             src: lifeline,
             demoLink: 'https://lifeline-homecare-31a7.onrender.com/',
             codeLink: 'https://github.com/NahomT23/LifeLine-HomeCare.git',
-            technologies: ['React', 'Framer Motion', 'Intersection Observer', 'Tailwind']
+            technologies: ['React', 'Tailwind']
         },
         {
             id: 3,
@@ -39,7 +39,7 @@ const Portfolio = () => {
             src: kalitImage,
             demoLink: 'https://a159-102-218-51-46.ngrok-free.app',
             codeLink: 'https://github.com/user/repo3',
-            technologies: ['React', 'Tailwind', 'Express', 'Node', 'Ngrok', 'Firebase', 'Firestore Auth', 'Telegram API']
+            technologies: ['React', 'Tailwind', 'Express', 'Node', 'Ngrok', 'Firebase', 'Telegram API']
         },
         {
             id: 4,
@@ -55,16 +55,16 @@ const Portfolio = () => {
             src: feedback,
             demoLink: 'https://quick-feed-u6z9.vercel.app/',
             codeLink: 'https://github.com/NahomT23/quickFeed.git',
-            technologies: ['Nextjs', 'Typescript', 'clerk', 'Tailwind', 'Prisma', 'Postgresql', 'Stripe']
+            technologies: ['Nextjs', 'Typescript', 'clerk', 'Tailwind', 'Prisma', 'PostgreSQL', 'Stripe']
         },
-        // {
-        //     id: 6,
-        //     name: 'Portfolio 6',
-        //     src: demo5,
-        //     demoLink: 'https://example.com/demo6',
-        //     codeLink: 'https://github.com/user/repo6',
-        //     technologies: ['Ruby', 'Rails', 'PostgreSQL']
-        // }
+        {
+            id: 6,
+            name: 'GymManager Cloud',
+            src: gymManager,
+            demoLink: 'https://gym-managment-three.vercel.app/',
+            codeLink: 'https://github.com/NahomT23/GYM-managment.git',
+            technologies: ['Nextjs', 'Typescript', 'PostgreSQL', 'Prisma', 'Supabase', 'better auth', 'Tailwind']
+        }
     ];
 
     return (
