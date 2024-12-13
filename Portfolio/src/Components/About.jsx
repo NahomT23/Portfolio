@@ -68,7 +68,11 @@ const About = () => {
               Hi 👋, I'm Nahom Tsegaye!
             </p>
             <p className='text-lg mt-4 merriweather-regular'>
-              I'm a software developer with a passion for creating impactful solutions. Explore my work and see how I can help you achieve your goals.
+              {/* I'm a software developer with a passion for creating impactful solutions. 
+              Explore my work and see how I can help you achieve your goals. */}
+              I'm a self-taught software developer with a passion for creating impactful solutions.
+               Through practical experience and continuous learning, I’ve gained expertise in building
+                efficient, scalable, and user-friendly applications. Explore my work to see how I can help you achieve your goals.
             </p>
           </motion.div>
           <motion.div
@@ -79,7 +83,9 @@ const About = () => {
             transition={{ duration: 0.6, ease: 'easeOut' }}
           >
             <p className='text-lg merriweather-regular'>
-              I’m dedicated to building exceptional software that enhances lives. From individuals to enterprises, I craft solutions tailored to meet your needs. Imagine having a software expert at your disposal, what could we achieve together?
+              I’m dedicated to building exceptional software that enhances lives.
+               From individuals to enterprises, I craft solutions tailored to meet your needs.
+                Imagine having a software expert at your disposal, what could we achieve together?
             </p>
           </motion.div>
         </div>
