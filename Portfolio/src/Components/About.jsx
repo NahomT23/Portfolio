@@ -187,7 +187,7 @@ const About = () => {
             animate={controlsContentRight}
             transition={{ duration: 0.6, ease: 'easeOut' }}
           >
-            <p className='text-lg merriweather-regular mr-2'>
+            <p className='text-lg merriweather-regular mr-4'>
             I’m passionate about creating software that makes a positive impact. Whether for individuals or businesses, I focus on building solutions that meet your unique needs. Let’s collaborate to bring your ideas to life and create something meaningful together.
             </p>
           </motion.div>
