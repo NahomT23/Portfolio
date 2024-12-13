@@ -68,7 +68,7 @@ const Experience = () => {
         {
             id: 8,
             src: firestore,
-            title: 'Firestore',
+            title: 'Firebase',
             style: 'shadow-orange-400'
         },
         {

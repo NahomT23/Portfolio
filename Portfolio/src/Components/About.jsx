@@ -83,9 +83,7 @@ const About = () => {
             transition={{ duration: 0.6, ease: 'easeOut' }}
           >
             <p className='text-lg merriweather-regular'>
-              I’m dedicated to building exceptional software that enhances lives.
-               From individuals to enterprises, I craft solutions tailored to meet your needs.
-                Imagine having a software expert at your disposal, what could we achieve together?
+            I’m passionate about creating software that makes a positive impact. Whether for individuals or businesses, I focus on building solutions that meet your unique needs. Let’s collaborate to bring your ideas to life and create something meaningful together
             </p>
           </motion.div>
         </div>
