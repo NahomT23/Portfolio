@@ -174,7 +174,7 @@ const About = () => {
             <p className='text-2xl merriweather-bold'>
               Hi 👋, I'm Nahom Tsegaye!
             </p>
-            <p className='text-lg mt-4 merriweather-regular'>
+            <p className='text-lg mt-4 merriweather-regular mr-2'>
               I'm a self-taught software developer with a passion for creating impactful solutions.
                Through practical experience and continuous learning, I’ve gained expertise in building
                 efficient, scalable, and user-friendly applications. Explore my work to see how I can help you achieve your goals.
@@ -187,7 +187,7 @@ const About = () => {
             animate={controlsContentRight}
             transition={{ duration: 0.6, ease: 'easeOut' }}
           >
-            <p className='text-lg merriweather-regular'>
+            <p className='text-lg merriweather-regular mr-2'>
             I’m passionate about creating software that makes a positive impact. Whether for individuals or businesses, I focus on building solutions that meet your unique needs. Let’s collaborate to bring your ideas to life and create something meaningful together.
             </p>
           </motion.div>
