@@ -67,11 +67,14 @@ const About = () => {
             <p className='text-2xl merriweather-bold'>
               Hi 👋, I'm Nahom Tsegaye!
             </p>
-            <p className='text-lg mt-4 merriweather-regular mr-4'>
+            {/* <p className='text-lg mt-4 merriweather-regular mr-4'>
               I'm a self-taught software developer with a passion for creating impactful solutions.
                Through practical experience and continuous learning, I’ve gained expertise in building
                 efficient, scalable, and user-friendly applications. Explore my work to see how I can help you achieve your goals.
-            </p>
+            </p> */}
+    <p className='text-lg mt-4 merriweather-regular mr-4'>
+    I'm a self-taught full-stack developer with a genuine passion for learning new technologies and building efficient solutions. I specialize in creating RESTful APIs with seamless, intuitive user interfaces and enjoy experimenting with different tech stacks for fun. My journey as a developer is driven by a constant curiosity and desire to grow.
+</p>
           </motion.div>
           <motion.div
             ref={contentRef}
@@ -80,9 +83,12 @@ const About = () => {
             animate={controlsContentRight}
             transition={{ duration: 0.6, ease: 'easeOut' }}
           >
-            <p className='text-lg merriweather-regular mr-4'>
+            {/* <p className='text-lg merriweather-regular mr-4'>
             I’m passionate about creating software that makes a positive impact. Whether for individuals or businesses, I focus on building solutions that meet your unique needs. Let’s collaborate to bring your ideas to life and create something meaningful together.
-            </p>
+            </p> */}
+<p className='text-lg merriweather-regular mr-4'>
+    With experience in the TypeScript ecosystem, I thrive in challenging environments where I get to learn and grow as a professional while bringing value to a company. I love creating web applications that solve real-world problems and bring value to users. Let's collaborate to bring your ideas to life and create something meaningful together.
+</p>
           </motion.div>
         </div>
         
