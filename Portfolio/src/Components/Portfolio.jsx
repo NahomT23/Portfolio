@@ -33,14 +33,14 @@ const Portfolio = () => {
             codeLink: 'https://github.com/NahomT23/LifeLine-HomeCare.git',
             technologies: ['React', 'Tailwind']
         },
-        {
-            id: 3,
-            name: 'Kalit Watch Store',
-            src: kalitImage,
-            demoLink: 'https://fetch-tele-data.vercel.app/',
-            codeLink: 'https://github.com/NahomT23/fetch-tele-data',
-            technologies: ['React', 'Redux', 'Typescript','Tailwind','Node', 'Express', 'Cloudinary', 'Stripe', 'Firebase', 'Telegram API']
-        },
+        // {
+        //     id: 3,
+        //     name: 'Kalit Watch Store',
+        //     src: kalitImage,
+        //     demoLink: 'https://fetch-tele-data.vercel.app/',
+        //     codeLink: 'https://github.com/NahomT23/fetch-tele-data',
+        //     technologies: ['React', 'Redux', 'Typescript','Tailwind','Node', 'Express', 'Cloudinary', 'Stripe', 'Firebase', 'Telegram API']
+        // },
         {
             id: 4,
             name: 'PayZen Invoice',
