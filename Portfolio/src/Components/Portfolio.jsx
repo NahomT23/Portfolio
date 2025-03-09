@@ -64,6 +64,14 @@ const Portfolio = () => {
             demoLink: 'https://gym-managment-three.vercel.app/',
             codeLink: 'https://github.com/NahomT23/GYM-managment.git',
             technologies: ['Nextjs', 'Typescript', 'PostgreSQL', 'Prisma', 'Supabase', 'Better-Auth', 'Zod', 'Tailwind']
+        },
+        {
+            id: 7,
+            name: 'SubLog',
+            src: subLog,
+            demoLink: 'https://subscription-tracker-wwul.vercel.app/',
+            codeLink: 'https://github.com/NahomT23/GYM-managment.git',
+            technologies: [ 'Typescript', 'MongoDb', 'JWT', 'Nodemailer', 'Tanstack React Query', 'Zustand', 'Tailwind']
         }
     ];
 
