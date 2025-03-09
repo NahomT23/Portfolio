@@ -1,15 +1,16 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import demo3 from '../assets/images/demo3.jpg'; 
-import demo4 from '../assets/images/demo4.jpg'; 
-import demo5 from '../assets/images/demo5.jpg';
+
 import expt from '../assets/images/expt.jpg';
 import lifeline from '../assets/images/lifeline.jpg';
 import kalitImage from '../assets/images/kalitImage.jpg'
 import payzen from '../assets/images/payzen.jpg'
 import feedback from "../assets/images/feedback.jpg"
 import gymManager from "../assets/images/gymManager.jpg"
+import subLog from '../assets/images/subLog.jpg'
+
+
 const Portfolio = () => {
     const { ref: sectionRef, inView: sectionInView } = useInView({
         triggerOnce: true,
@@ -71,7 +72,7 @@ const Portfolio = () => {
             src: subLog,
             demoLink: 'https://subscription-tracker-wwul.vercel.app/',
             codeLink: 'https://github.com/NahomT23/GYM-managment.git',
-            technologies: [ 'Typescript', 'MongoDb', 'JWT', 'Nodemailer', 'Tanstack React Query', 'Zustand', 'Tailwind']
+            technologies: [ 'Typescript', 'Tanstack React Query', 'Zustand', 'Tailwind', 'Express', 'MongoDb', 'JWT', 'Nodemailer',]
         }
     ];
 
