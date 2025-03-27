@@ -62,9 +62,9 @@ const Portfolio = () => {
             id: 6,
             name: 'GymManager Cloud',
             src: gymManager,
-            demoLink: 'https://gym-managment-three.vercel.app/',
-            codeLink: 'https://github.com/NahomT23/GYM-managment.git',
-            technologies: ['Nextjs', 'Typescript', 'PostgreSQL', 'Prisma', 'Supabase', 'Better-Auth', 'Zod', 'Tailwind']
+            demoLink: '',
+            codeLink: 'https://github.com/NahomT23/gym-manager-v2.git',
+            technologies: ['Nextjs', 'Typescript', 'PostgreSQL', 'Prisma', 'Supabase', 'JWT', 'Zustand', 'Tailwind']
         },
         {
             id: 7,
