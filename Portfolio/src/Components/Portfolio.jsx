@@ -9,6 +9,7 @@ import payzen from '../assets/images/payzen.jpg'
 import feedback from "../assets/images/feedback.jpg"
 import gymManager from "../assets/images/gymManager.jpg"
 import subLog from '../assets/images/subLog.jpg'
+import taskFlow from '../assets/images/taskFlow.jpg'
 
 
 const Portfolio = () => {
@@ -73,7 +74,15 @@ const Portfolio = () => {
             demoLink: 'https://subscription-tracker-wwul.vercel.app/',
             codeLink: 'https://github.com/NahomT23/GYM-managment.git',
             technologies: [ 'Typescript', 'Tanstack React Query', 'Zustand', 'Tailwind', 'Express', 'MongoDb', 'JWT', 'Nodemailer',]
-        }
+        },
+        {
+            id: 8,
+            name: 'TaskFlow',
+            src: taskFlow,
+            demoLink: 'https://task-manager-eosin-eight.vercel.app/',
+            codeLink: 'https://github.com/NahomT23/task-manager.git',
+            technologies: ['React', 'Typescript','Tailwind', 'MongoDB', 'JWT', 'Zustand', 'Gemini AI API']
+        },
     ];
 
     return (
