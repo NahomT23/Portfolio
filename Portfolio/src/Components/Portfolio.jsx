@@ -25,7 +25,7 @@ const Portfolio = () => {
             src: expt,
             demoLink: 'https://ai-expense-tracker-4.onrender.com/',
             codeLink: 'https://github.com/NahomT23/AI-Expense-Tracker.git',
-            technologies: ['React', 'Express', 'GraphQL', 'MongoDb', 'Tailwind', 'Gemini AI API']
+            technologies: ['Express', 'GraphQL', 'MongoDb', 'Passportjs', 'Tailwind', 'Gemini AI API' ]
         },
         {
             id: 2,
@@ -63,7 +63,7 @@ const Portfolio = () => {
             id: 6,
             name: 'GymManager Cloud',
             src: gymManager,
-            demoLink: '',
+            demoLink: 'https://gym-manager-v2.vercel.app/',
             codeLink: 'https://github.com/NahomT23/gym-manager-v2.git',
             technologies: ['Nextjs', 'Typescript', 'PostgreSQL', 'Prisma', 'Supabase', 'JWT', 'Zustand', 'Tailwind']
         },
@@ -72,7 +72,7 @@ const Portfolio = () => {
             name: 'SubLog',
             src: subLog,
             demoLink: 'https://subscription-tracker-wwul.vercel.app/',
-            codeLink: 'https://github.com/NahomT23/GYM-managment.git',
+            codeLink: 'https://github.com/NahomT23/subscription-tracker.git',
             technologies: [ 'Typescript', 'Tanstack React Query', 'Zustand', 'Tailwind', 'Express', 'MongoDb', 'JWT', 'Nodemailer',]
         },
         {
