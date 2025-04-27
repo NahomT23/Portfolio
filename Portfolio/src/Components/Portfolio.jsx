@@ -73,7 +73,7 @@ const Portfolio = () => {
             src: subLog,
             demoLink: 'https://subscription-tracker-wwul.vercel.app/',
             codeLink: 'https://github.com/NahomT23/subscription-tracker.git',
-            technologies: [ 'Typescript', 'Tanstack React Query', 'Zustand', 'Tailwind', 'Express', 'MongoDb', 'JWT', 'Nodemailer',]
+            technologies: [ 'Typescript', 'Tanstack Query', 'Zustand', 'Tailwind', 'Express', 'MongoDb', 'JWT', 'Nodemailer',]
         },
         {
             id: 8,
@@ -81,7 +81,7 @@ const Portfolio = () => {
             src: taskFlow,
             demoLink: 'https://task-manager-eosin-eight.vercel.app/',
             codeLink: 'https://github.com/NahomT23/task-manager.git',
-            technologies: ['React', 'Typescript','Tailwind', 'MongoDB', 'JWT', 'Zustand', 'Gemini AI API']
+            technologies: ['React', 'Typescript', 'Tanstack Query' ,'Tailwind', 'MongoDB', 'Redis', 'Socket.io', 'JWT', 'Zustand', 'Gemini AI API', 'Cloudinary']
         },
     ];
 
