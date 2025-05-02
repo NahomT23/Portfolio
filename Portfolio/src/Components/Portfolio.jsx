@@ -19,6 +19,7 @@ const Portfolio = () => {
     });
 
     const portfolios = [
+
         {
             id: 1,
             name: 'AI Expense Tracker',
@@ -28,20 +29,45 @@ const Portfolio = () => {
             technologies: ['Express', 'GraphQL', 'MongoDb', 'Passportjs', 'Tailwind', 'Gemini AI API' ]
         },
         {
-            id: 2,
-            name: 'LifeLine HomeCare',
-            src: lifeline,
-            demoLink: 'https://lifeline-homecare-31a7.onrender.com/',
-            codeLink: 'https://github.com/NahomT23/LifeLine-HomeCare.git',
-            technologies: ['React', 'Tailwind']
-        },
-        {
             id: 3,
             name: 'Kalit Watch Store',
             src: kalitImage,
             demoLink: 'https://fetch-tele-data.vercel.app/',
             codeLink: 'https://github.com/NahomT23/fetch-tele-data',
             technologies: ['React', 'Redux', 'Typescript','Tailwind','Node', 'Express', 'Cloudinary', 'Stripe', 'Firebase', 'Telegram API']
+        },
+        {
+            id: 8,
+            name: 'TaskFlow',
+            src: taskFlow,
+            demoLink: 'https://task-manager-eosin-eight.vercel.app/',
+            codeLink: 'https://github.com/NahomT23/task-manager.git',
+            technologies: ['React', 'Typescript', 'Tanstack Query' ,'Tailwind', 'MongoDB', 'Redis', 'Socket.io', 'JWT', 'Zustand', 'Gemini AI API', 'Cloudinary']
+        },
+
+        {
+            id: 7,
+            name: 'SubLog',
+            src: subLog,
+            demoLink: 'https://subscription-tracker-wwul.vercel.app/',
+            codeLink: 'https://github.com/NahomT23/subscription-tracker.git',
+            technologies: [ 'Typescript', 'Tanstack Query', 'Zustand', 'Tailwind', 'Express', 'MongoDb', 'JWT', 'Nodemailer',]
+        },
+                // {
+        //     id: 9,
+        //     name: 'Application Tracker',
+        //     src: ,
+        //     demoLink: '',
+        //     codeLink: '',
+        //     technologies: ['Next', 'Typescript', 'Tailwind', 'Shadcn', 'Prisma', 'neon', 'Better-Auth']
+        // },
+        {
+            id: 6,
+            name: 'GymManager Cloud',
+            src: gymManager,
+            demoLink: 'https://gym-manager-v2.vercel.app/',
+            codeLink: 'https://github.com/NahomT23/gym-manager-v2.git',
+            technologies: ['Nextjs', 'Typescript', 'PostgreSQL', 'Prisma', 'Supabase', 'JWT', 'Zustand', 'Tailwind']
         },
         {
             id: 4,
@@ -60,29 +86,14 @@ const Portfolio = () => {
             technologies: ['Nextjs', 'Typescript', 'clerk', 'Tailwind', 'Prisma', 'PostgreSQL', 'Stripe']
         },
         {
-            id: 6,
-            name: 'GymManager Cloud',
-            src: gymManager,
-            demoLink: 'https://gym-manager-v2.vercel.app/',
-            codeLink: 'https://github.com/NahomT23/gym-manager-v2.git',
-            technologies: ['Nextjs', 'Typescript', 'PostgreSQL', 'Prisma', 'Supabase', 'JWT', 'Zustand', 'Tailwind']
+            id: 2,
+            name: 'LifeLine HomeCare',
+            src: lifeline,
+            demoLink: 'https://lifeline-homecare-31a7.onrender.com/',
+            codeLink: 'https://github.com/NahomT23/LifeLine-HomeCare.git',
+            technologies: ['React', 'Tailwind']
         },
-        {
-            id: 7,
-            name: 'SubLog',
-            src: subLog,
-            demoLink: 'https://subscription-tracker-wwul.vercel.app/',
-            codeLink: 'https://github.com/NahomT23/subscription-tracker.git',
-            technologies: [ 'Typescript', 'Tanstack Query', 'Zustand', 'Tailwind', 'Express', 'MongoDb', 'JWT', 'Nodemailer',]
-        },
-        {
-            id: 8,
-            name: 'TaskFlow',
-            src: taskFlow,
-            demoLink: 'https://task-manager-eosin-eight.vercel.app/',
-            codeLink: 'https://github.com/NahomT23/task-manager.git',
-            technologies: ['React', 'Typescript', 'Tanstack Query' ,'Tailwind', 'MongoDB', 'Redis', 'Socket.io', 'JWT', 'Zustand', 'Gemini AI API', 'Cloudinary']
-        },
+
     ];
 
     return (
